@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>eHome</title>
+        <meta name = "description" content = "New Smyrna based custom home rennovations. We specialize in kitchen and bath remodels.">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    
+    
+    <body>
+       
+        <script>
+            /* Set the width of the side navigation to 250px */
+            function openNav() {
+             document.getElementById("mySidenav").style.width = "250px";
+             //document.getElementById("main").style.marginLeft = "250px";
+            }
+
+            /* Set the width of the side navigation to 0 */
+            function closeNav() {
+             document.getElementById("mySidenav").style.width = "0";
+             //document.getElementById("main").style.marginLeft = "0";
+            }
+        </script>
+       
+       
+        <div class = "container" id = "main">
+            <div class = "navbar" id = "navbar">
+                <img src = "noback.png" class = "logo"/>
+                <nav>
+                    <ul>
+                        <li><a href = "">Home</a></li>
+                        <li><a href = "">Region</a></li>
+                        <li><a href = "">About</a></li>
+                    </ul>
+                </nav>
+                <img onclick="openNav()" src = "Images/menu.png" class = "menu-icon"/>
+            </div>
+
+            <div class = "row">
+                <div class = "col">
+                    <h1>America's Custom Home Builder</h1>
+                    <p>We dedecate ourselves to providing the easiest, most enjoyable custom home building experience on the market</p>
+
+                    <button type = "button">Start Building your Dream</button>
+
+                </div>
+                <div class = "col">
+
+                    <div class = "card card2">
+                        <h5>East Coast</h5>
+                        <p>Take a look at some projects we have already completed</p>
+                    </div>
+                    <div class = "card card1">
+                        <h5>West Coast</h5>
+                        <p>Take a look at some projects we have already completed</p>
+                    </div>
+                    <div class = "card card3">
+                        <h5>Deep South</h5>
+                        <p>Take a look at some projects we have already completed</p>
+                    </div>
+                    <div class = "card card4">
+                        <h5>Midwest</h5>
+                        <p>Take a look at some projects we have already completed</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+
+
+
+        </div>
+        
+        
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+
+    
+    
+    </body>
+
+</html>
+
